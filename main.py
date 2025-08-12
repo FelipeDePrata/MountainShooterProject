@@ -1,5 +1,5 @@
 from code.Game import Game
 
-#Starting the game
+# Starting the game
 game = Game()
 game.run()
