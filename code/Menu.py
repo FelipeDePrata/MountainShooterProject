@@ -9,7 +9,7 @@ from code.Const import WIN_WIDTH, WIN_HEIGHT, COLOR_MAX_BLUE, COLOR_MAX_BLACK, M
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/MenuBg.png')
+        self.surf = pygame.image.load('./asset/MenuBg.png').convert_alpha()
         self.rectangle = self.surf.get_rect(left=0,top=0)
 
     def run(self, ): # Updating menu background, texts and music
